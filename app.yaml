@@ -1,0 +1,11 @@
+application: fatlotus-app
+runtime: python
+api_version: 1
+version: 1
+
+handlers:
+- url: /((bug)|(track/[0-9]+))
+  script: cache.py
+- url: /
+  static_files: index.html
+  upload: index.html
