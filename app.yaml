@@ -1,4 +1,4 @@
-application: fatlotus-app
+application: cache-poisoning
 runtime: python
 api_version: 1
 version: 1
