@@ -4,7 +4,7 @@ api_version: 1
 version: 1
 
 handlers:
-- url: /((bug)|(track/[0-9]+))
+- url: /((bug)|(track/.+))
   script: cache.py
 - url: /
   static_files: index.html
